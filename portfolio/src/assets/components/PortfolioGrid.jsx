@@ -5,6 +5,7 @@ import Behance from "./Behance";
 import AgeComponent from "./AgeComponent";
 import Instagram from "./Instagram";
 import { DevProjects } from "./DevProjects";
+import ArtProjects from "./ArtProjects";
 
 const PortfolioGrid = () => {
   return (
@@ -24,7 +25,7 @@ const PortfolioGrid = () => {
         <div className="bg-red-100 overflow-hidden row-start-4 md:row-start-3 md:col-start-3 col-span-2 rounded-lg">
           <DevProjects/>
         </div>
-        <div className="bg-red-100 overflow-hidden col-span-2 md:col-span-2 rounded-lg">C7</div>
+        <div className="bg-red-100 overflow-hidden col-span-2 md:col-span-2 rounded-lg"><ArtProjects/></div>
         <div className="bg-red-100 overflow-hidden rounded-lg">C8</div>
         <div className="bg-red-100 overflow-hidden rounded-lg">C9</div>
         <div className="bg-red-100 overflow-hidden rounded-lg">C10</div>
