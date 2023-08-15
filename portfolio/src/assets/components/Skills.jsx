@@ -1,13 +1,4 @@
 import React from "react";
-import {
-  BiLogoHtml5,
-  BiLogoTailwindCss,
-  BiLogoCss3,
-  BiLogoSass,
-  BiLogoReact,
-  BiLogoNodejs,
-  BiLogoJavascript,
-} from "react-icons/bi";
 
 import {
   SiAdobeillustrator,
