@@ -10,6 +10,7 @@ import Lang from "./Lang";
 import Skills from "./Skills";
 import Bot from "./Bot";
 import Mail from "./Mail";
+import Tooltip from "./Tooltip";
 
 const PortfolioGrid = () => {
   return (
@@ -48,7 +49,7 @@ const PortfolioGrid = () => {
         <div className="bg-red-100 overflow-hidden col-span-2 row-start-8 rounded-lg shadow-lg shadow-gray-400">
           C11
         </div>
-        <div className="bg-red-100 overflow-hidden col-start-2 row-start-7 md:row-start-5 md:col-start-4 rounded-lg">
+        <div className="overflow-hidden col-start-2 row-start-7 md:row-start-5 md:col-start-4 rounded-lg shadow-lg shadow-gray-400">
           <Mail />
         </div>
       </div>
