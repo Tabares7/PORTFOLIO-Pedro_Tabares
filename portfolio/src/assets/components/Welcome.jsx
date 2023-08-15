@@ -5,7 +5,7 @@ const Welcome = () => {
   return (
    <div className="h-full bg-center bg-cover" style={{ backgroundImage: `url(${welcomeImg})` }}>
             <div className="h-full p-10 flex  text-left items-center">
-                <p className="text-white text-3xl">Contenido del componente</p>
+                <h1 className=' text-darkgrenn font-bold'>👋🏼 Hey, This is Pedro Tabares!</h1>
             </div>
         </div>
   )
