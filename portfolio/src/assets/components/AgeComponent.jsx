@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const AgeComponent = () => {
   const [age, setAge] = useState(calculateAge());
@@ -17,7 +17,10 @@ const AgeComponent = () => {
     let age = today.getFullYear() - birthDate.getFullYear();
     const monthDifference = today.getMonth() - birthDate.getMonth();
 
-    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+    if (
+      monthDifference < 0 ||
+      (monthDifference === 0 && today.getDate() < birthDate.getDate())
+    ) {
       age--; // Ajusta si aún no ha llegado al cumpleaños de este año
     }
 
@@ -26,9 +29,9 @@ const AgeComponent = () => {
 
   return (
     <div className="relative flex flex-col bg-trueorange text-palegray min-h-full items-center justify-center mx-auto">
-      <h3 className=' uppercase'>Age</h3>
-      <h1 className=' text-6xl font-bold'>{age}</h1>
-      <h3 className=' uppercase font-semibold'>years old</h3>
+      <h3 className=" uppercase">Age</h3>
+      <h1 className=" text-7xl font-extrabold">{age}</h1>
+      <h3 className=" uppercase font-semibold">years old</h3>
     </div>
   );
 };
