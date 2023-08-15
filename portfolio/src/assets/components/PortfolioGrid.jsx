@@ -1,5 +1,6 @@
 import React from "react";
 import Welcome from "./Welcome";
+import GitHub from "./GitHub";
 
 const PortfolioGrid = () => {
   return (
@@ -9,7 +10,7 @@ const PortfolioGrid = () => {
           <Welcome/>
         </div>
         <div className="bg-red-100 md:col-start-4 md:row-start-1 rounded-lg">
-          C2
+          <GitHub/>
         </div>
         <div className="bg-red-100 md:col-start-4 md:row-start-2 rounded-lg">
           C3
