@@ -26,7 +26,7 @@ const Behance = () => {
         >
         <BiLogoBehance />
         </div>
-        <div className={`absolute text-center text-3xl font-extrabold transition-transform duration-500  ${isVisible ? '-translate-x-96 opacity-0' : 'translate-x-0 opacity-100'}`}>
+        <div className={`absolute text-center p-10 text-2xl font-extrabold transition-transform duration-500  ${isVisible ? '-translate-x-96 opacity-0' : 'translate-x-0 opacity-100'}`}>
         Discover more on Behance!
       </div>
       </div>
