@@ -1,8 +1,17 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 import { BiLogoInstagram, BiLinkExternal } from "react-icons/bi";
 
 const Instagram = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsVisible((prev) => !prev);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <a
       href="https://www.instagram.com/piterwxrk/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
@@ -12,7 +21,18 @@ const Instagram = () => {
         <div className="absolute top-5 right-5 text-gray-500 text-sm">
           <BiLinkExternal />
         </div>
+        <div
+          className={`absolute transition-transform duration-500 ${
+            isVisible
+              ? "translate-x-0  opacity-100"
+              : "translate-x-96  opacity-0"
+          }`}
+        >
         <BiLogoInstagram />
+        </div>
+         <div className={`absolute text-center text-3xl font-extrabold transition-transform duration-500  ${isVisible ? '-translate-x-96 opacity-0' : 'translate-x-0 opacity-100'}`}>
+         Join me on Instagram!
+      </div>
       </div>
     </a>
   );
