@@ -19,19 +19,19 @@ const PortfolioGrid = () => {
         <div className="md:col-span-3  overflow-hidden col-span-2 row-span-2 rounded-lg shadow-lg shadow-gray-400">
           <Welcome />
         </div>
-        <div className=" md:col-start-4 md:row-start-1 overflow-hidden min-h-[180px] rounded-lg shadow-lg shadow-gray-400 hover:border-transparent hover:border-2 ">
+        <div className=" md:col-start-4 md:row-start-1 overflow-hidden min-h-[180px] rounded-lg shadow-lg shadow-gray-400 ">
           <GitHub />
         </div>
-        <div className=" md:col-start-4 md:row-start-2 overflow-hidden rounded-lg shadow-lg shadow-gray-400 hover:border-transparent  hover:border-2">
+        <div className=" md:col-start-4 md:row-start-2 overflow-hidden rounded-lg shadow-lg shadow-gray-400 ">
           <Behance />
         </div>
         <div className=" overflow-hidden rounded-lg shadow-lg shadow-gray-400 ">
           <AgeComponent />
         </div>
-        <div className="overflow-hidden min-h-[180px] rounded-lg shadow-lg shadow-gray-400 hover:border-transparent  hover:border-2">
+        <div className="overflow-hidden min-h-[180px] rounded-lg shadow-lg shadow-gray-400 ">
           <Instagram />
         </div>
-        <div className="overflow-hidden min-h-[180px] row-start-4 md:row-start-3 md:col-start-3 col-span-2 rounded-lg shadow-lg shadow-gray-400 hover:border-transparent  hover:border-2">
+        <div className="overflow-hidden min-h-[180px] row-start-4 md:row-start-3 md:col-start-3 col-span-2 rounded-lg shadow-lg shadow-gray-400 ">
           <DevProjects />
         </div>
         <div className=" overflow-hidden min-h-[180px] col-span-2 md:col-span-2 rounded-lg shadow-lg shadow-gray-400 hover:border-transparent hover:border-2">
