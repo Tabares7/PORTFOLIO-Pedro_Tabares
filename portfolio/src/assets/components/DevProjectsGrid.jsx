@@ -3,6 +3,9 @@ import PortfolioProject from "./projects/PortfolioProject";
 import NewsletterProject from "./projects/NewsletterProject";
 import ClinicProject from "./projects/ClinicaProject";
 import AdviceGeneratorProject from "./projects/AdviceGeneratorProject";
+import CesarEncoderProject from "./projects/CesarEncoderProject";
+import QRCodeProject from "./projects/QRCodeProject";
+import DesignCoreProject from "./projects/DesignCoreProject";
 
 const DevProjectsGrid = () => {
   return (
@@ -19,6 +22,15 @@ const DevProjectsGrid = () => {
         </div>
         <div className="col-span-1 row-span-2 bg-gray-100 text-black min-h-[360px] rounded-lg shadow-lg shadow-gray-400 overflow-hidden md:min-h-[500px]">
           <AdviceGeneratorProject/>
+        </div>
+        <div className="col-span-2 row-span-1 bg-gray-100 text-black min-h-[180px] rounded-lg shadow-lg shadow-gray-400 overflow-hidden md:min-h-[500px]">
+          <CesarEncoderProject/>
+        </div>
+        <div className="col-span-1 row-span-2 bg-gray-100 text-black min-h-[360px] rounded-lg shadow-lg shadow-gray-400 overflow-hidden md:min-h-[500px]">
+          <QRCodeProject/>
+        </div>
+        <div className="col-span-1 row-span-2 bg-gray-100 text-black min-h-[360px] rounded-lg shadow-lg shadow-gray-400 overflow-hidden md:min-h-[500px]">
+          <DesignCoreProject/>
         </div>
       </div>
     </div>
