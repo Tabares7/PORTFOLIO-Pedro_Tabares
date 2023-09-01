@@ -3,3 +3,7 @@
 body{
     font-family: 'Fira Sans', sans-serif;
 }
+
+.padre:hover .hijo {
+    @apply md:bottom-5;  /* o cualquier otro estilo de Tailwind que quieras aplicar */
+  }
