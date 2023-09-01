@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const QRCodeProject = () => {
   return (
-   <Link to="https://github.com/Tabares7/PORTFOLIO-Pedro_Tabares">
+   <Link target="_blank" to="https://github.com/Tabares7/qr-code-component-main">
     <div
       className="h-full relative  padre  bg-center bg-cover cursor-pointer"
       style={{ backgroundImage: `url(${portfolio})` }}
@@ -18,7 +18,7 @@ const QRCodeProject = () => {
         </div>
         <div className="absolute top-5 right-5  text-white md:text-2xl text-lg"><BiRightArrowAlt/></div>
     </div>
-   </Link>
+   </Link> 
   );
 };
 

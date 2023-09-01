@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 
 const ClinicProject = () => {
   return (
-   <Link to="https://github.com/Tabares7/PORTFOLIO-Pedro_Tabares">
+    <Link target="_blank" to="https://github.com/Tabares7/labuenafe">
     <div
       className="h-full relative  padre  bg-center bg-cover cursor-pointer"
       style={{ backgroundImage: `url(${portfolio})` }}
-    >
+    > 
         <div className="duration-150 absolute z-10 bg-gradient-to-t from-black md:via-90%   via-gray-900 to-transparent w-full h-full opacity-80 hover:opacity-95 md:via-transparent">        
         </div>
         <div className="duration-150 absolute text-white bottom-2 hijo left-2 z-20 p-2  md:left-5 md:p-4 md:-bottom-52">

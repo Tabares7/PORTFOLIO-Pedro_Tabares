@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const SummaryProject = () => {
   return (
-   <Link to="https://github.com/Tabares7/PORTFOLIO-Pedro_Tabares">
+   <Link target="_blank" to="https://github.com/Tabares7/Challenge-results-summary-component">
     <div
       className="h-full relative  padre  bg-center bg-cover cursor-pointer"
       style={{ backgroundImage: `url(${portfolio})` }}
@@ -20,6 +20,6 @@ const SummaryProject = () => {
     </div>
    </Link>
   );
-};
+}; 
 
 export default SummaryProject;
