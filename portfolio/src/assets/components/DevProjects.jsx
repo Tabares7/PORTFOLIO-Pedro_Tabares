@@ -12,18 +12,19 @@ export const DevProjects = () => {
   }
   return (
     <div
-      className="h-full bg-right bg-cover cursor-pointer"
+      className="h-full bg-center md:bg-cover bg-cover cursor-pointer relative"
       style={{ backgroundImage: `url(${devGif})` }}
       onClick={handleOnClick}
     >
-      <div className="h-full relative p-7 gap-2  w-full bg-lightgreen bg-opacity-40  flex flex-col text-left">
+      <div className="h-full relative p-7 gap-2  w-full bg-darkgrenn bg-opacity-50  flex flex-col text-left">
         <div className=" h-3/5"></div>
-        <h1 className=" text-white font-bold text-xl md:text-3xl">
-        💻 Dev Projects and Tests.
+        <h1 className=" text-lightgreen text-7xl md:text-8xl font-black ">
+        <p>Dev</p>
+        <p>Projects</p>
         </h1>
-        <p className=" text-white text-sm lg:text-xl">
+        {/* <p className=" text-white text-sm lg:text-xl">
           Where practice and learning como to life.
-        </p>
+        </p> */}
         <div className="absolute top-5 right-5  text-white md:text-2xl text-lg"><BiRightArrowAlt/></div>
 
       </div>

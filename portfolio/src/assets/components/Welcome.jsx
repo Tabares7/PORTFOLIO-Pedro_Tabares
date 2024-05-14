@@ -9,8 +9,9 @@ const Welcome = () => {
     >
       <div className="h-full p-10 gap-2  bg-lightgreen bg-opacity-80 sm:bg-opacity-0 flex flex-col text-left w-full sm:w-2/3 ">
         <div className="h-3/5 "></div>
-        <h1 className=" text-darkgrenn font-bold lg:text-3xl">
-          👋🏼 Hey, This is Pedro Tabares!
+        <h1 className=" text-darkgrenn font-bold text-5xl lg:text-7xl">
+        <p className="text-xl md:text-7xl">👋🏻 Hey, This is</p> 
+          <p>Pedro Tabares!</p>
         </h1>
         <p className=" text-darkgrenn lg:text-xl">
           Here's a <span className="font-bold">frontend developer</span> with

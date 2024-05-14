@@ -13,7 +13,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="bg-gray-100">
+            <div className="bg-gray-700">
               <PortfolioGrid />
             </div>
           }
