@@ -7,9 +7,9 @@ export const ProjectTemplate = ({ logo, title, description, screenshot, aiText, 
         <img src={logo} alt="logo project assess 101" />
       </div>
       <div className="col-span-4 md:col-span-2 row-span-2 bg-[#E3FCF8] rounded-lg p-10">
-        <h1 className="text-3xl font-bold">{title}</h1>
+        <h1 className="text-3xl font-bold ">{title}</h1>
         <div>
-          <p className=" ">{description}</p>
+          <p className="">{description}</p>
         </div>
       </div>
       <div className="col-span-2 md:col-span-1 row-span-1 bg-[#E3FCF8] rounded-lg flex flex-col justify-center items-center">
