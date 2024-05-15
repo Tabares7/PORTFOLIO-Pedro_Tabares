@@ -10,7 +10,8 @@ import Lang from "./Lang";
 import Skills from "./Skills";
 import Bot from "./Bot";
 import Mail from "./Mail";
-import AlternatingText from "./AlternatingText";
+import yo from "../img/profile.png";
+import MapWithBubble from "./Ubicacion";
 
 const PortfolioGrid = () => {
   return (
@@ -46,8 +47,8 @@ const PortfolioGrid = () => {
         <div className=" overflow-hidden rounded-lg shadow-lg shadow-gray-900 ">
           <Bot />
         </div>
-        <div className="bg-red-100 overflow-hidden col-span-2 row-start-8 rounded-lg shadow-lg shadow-gray-900  ">
-          <AlternatingText/>
+        <div className=" overflow-hidden col-span-2 max-h-64   rounded-lg shadow-lg shadow-gray-900  ">
+          <MapWithBubble photoUrl={yo} location="Dallas, Texas" />
         </div>
         <div className="overflow-hidden min-h-[180px] col-start-2 row-start-7 md:row-start-5 md:col-start-4 rounded-lg shadow-lg shadow-gray-900">
           <Mail />
